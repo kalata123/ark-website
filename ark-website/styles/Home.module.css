@@ -1,0 +1,132 @@
+.container {
+  all: unset;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: lightgray;font-family: "Roboto", "sans-serif";
+}
+
+.full-navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: #bdbfbe;
+  padding: 5px;
+  border-top-left-radius: 17px;
+  box-shadow: inset 1px -1px 12px 4px rgba(36, 24, 73, 0.43);
+  /* box-shadow: inset 1px -1px 12px 4px #253F3F;rgba(0,0,0,0.23) */
+}
+
+.navbar-contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navbar-contacts > a {
+  background-color: lightcyan;
+}
+
+.navbar-contacts > a:first-child {
+  border-top-left-radius: 25px ;
+  padding: 10px;
+}
+.navbar-contacts > a:last-child {
+  border-top-right-radius: 25px ;
+  padding: 10px;
+}
+
+.contacts-info {
+  justify-content: space-evenly;
+}
+
+.navbar-upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-upper > * {
+  padding: 5px;
+}
+
+.navbar-upper > div:last-child {
+  line-height: 1.5;
+  color: black;
+}
+
+.upper-logo {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+}
+
+.upper-vlak {
+  width: 100%;
+  max-width: 700px;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.navbar-lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+  box-shadow: 5px 4px 56px -8px rgba(0,0,0,0.23);
+}
+
+.navbar-lower > a {
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  box-shadow: inset 5px 4px 56px -8px rgba(0,0,0,0.3);
+}
+
+.navbar-lower > a:first-child {
+  margin-left: 15px;
+}
+
+.navbar-lower > a:last-child {
+  margin-right: 15px;
+}
+
+.lower-separator {
+  width: 2px;
+  height: 30px;
+  background-color:black;
+}
+
+.main {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  background-color: #bdbfbe;
+  padding: 5px;
+  box-shadow: inset 1px -1px 12px 4px rgba(36, 24, 73, 0.43);
+  width: 100%;
+  max-width: 1400px;
+}
+
+.main-sidebar {
+  display: flex;
+  flex-direction:column;
+}
+
+.main-separator {
+  width: 2px;
+  height: 50px;
+  background-color:black;
+}
