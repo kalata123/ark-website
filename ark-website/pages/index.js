@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import styles from '../styles/navbar.module.css'
+import styles from '../styles/index.module.css'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -14,9 +15,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Sidebar />
-      <div className={styles.footer}>
-
-      </div>
+      <Footer />
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>

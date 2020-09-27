@@ -1,8 +1,8 @@
-import styles from '../styles/navbar.module.css'
+import styles from '../styles/sidebar.module.css'
 
 const Sidebar = props => (
-    <div className={styles.main}>
-        <div className={styles['main-sidebar']}>
+    <div className={styles['sidebar']}>
+        <div className={styles['sidebar-content']}>
             <a>Производствени системи</a>
             <a>Материали</a> 
             <a>Електроди и тел - цени</a>          
@@ -21,7 +21,7 @@ const Sidebar = props => (
             <a>Общи условия</a>        
         </div>
         <a>nqkuv tekst</a>
-        <span className={styles['main-separatcor']}></span>
+        <span className={styles['sidebar-separatcor']}></span>
         <a>nqkuv tekst</a>
         <div>
             <a>Mnogo tekst</a>
