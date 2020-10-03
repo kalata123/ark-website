@@ -1,21 +1,21 @@
 .sidebar {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: row;
-    background-color: #bdbfbe;
-    padding: 5px;
-    box-shadow: inset 1px -1px 12px 4px rgba(36, 24, 73, 0.43);
-    width: 100%;
-    max-width: 700px;
-  }
-  
-  .sidebar-content {
-    display: flex;
-    flex-direction:column;
-  }
-  
-  .sidebar-separator {
-    width: 2px;
-    height: 50px;
-    background-color:black;
-  }
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  background-color: #bdbfbe;
+  padding: 5px;
+  box-shadow: inset 1px -1px 12px 4px rgba(36, 24, 73, 0.43);
+  width: 100%;
+  max-width: 258.656px;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction:column;
+}
+
+.sidebar-separator {
+  width: 2px;
+  height: 50px;
+  background-color:black;
+}

@@ -13,8 +13,12 @@ export default function Home() {
         <link rel="icon" href="/logo_ARKONEA_EOOD.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet"></link>
       </Head>
-      <Navbar />
-      <Sidebar />
+      <div>
+        <Navbar />
+        <div>
+          <Sidebar />
+        </div>
+      </div>
       <Footer />
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
