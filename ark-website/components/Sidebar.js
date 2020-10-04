@@ -20,12 +20,6 @@ const Sidebar = props => (
             <a>Графичен и уеб дизайн</a>          
             <a>Общи условия</a>        
         </div>
-        <a>nqkuv tekst</a>
-        <span className={styles['sidebar-separatcor']}></span>
-        <a>nqkuv tekst</a>
-        <div>
-            <a>Mnogo tekst</a>
-        </div>
     </div>
 );
 

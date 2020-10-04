@@ -4,6 +4,8 @@ import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import Footer from '../components/Footer'
+import Main from '../components/Main'
+
 
 export default function Home() {
   return (
@@ -15,8 +17,13 @@ export default function Home() {
       </Head>
       <div>
         <Navbar />
-        <div>
+        <div className={styles['main-content']}>
           <Sidebar />
+          <Main>
+            <div className={styles['content-pic']}>
+              <a>niceee</a>
+            </div>
+          </Main>
         </div>
       </div>
       <Footer />
