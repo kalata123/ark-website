@@ -1,11 +1,10 @@
-import Head from 'next/head'
-import styles from '../styles/index.module.css'
-import Link from 'next/link'
-import Navbar from '../components/Navbar'
-import Sidebar from '../components/Sidebar'
-import Footer from '../components/Footer'
-import Main from '../components/Main'
-
+import Head from "next/head";
+import styles from "../styles/index.module.css";
+import Link from "next/link";
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
+import Footer from "../components/Footer";
+import Main from "../components/Main";
 
 export default function Home() {
   return (
@@ -13,14 +12,17 @@ export default function Home() {
       <Head>
         <title>Arkonea</title>
         <link rel="icon" href="/logo_ARKONEA_EOOD.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet"></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <div>
         <Navbar />
-        <div className={styles['main-content']}>
+        <div className={styles["main-content"]}>
           <Sidebar />
           <Main>
-            <div className={styles['content-pic']}>
+            <div className={styles["content-pic"]}>
               <a>niceee</a>
             </div>
           </Main>
@@ -79,5 +81,5 @@ export default function Home() {
         </a>
       </footer> */}
     </div>
-  )
+  );
 }

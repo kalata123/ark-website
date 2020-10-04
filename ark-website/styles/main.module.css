@@ -1,6 +1,6 @@
 .component {
-	font-size: 18px;
-	margin-top: 15px;
+  font-size: 18px;
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
   background-color: #bdbfbe;
