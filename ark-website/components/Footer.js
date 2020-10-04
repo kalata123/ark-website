@@ -1,7 +1,7 @@
 import styles from "../styles/footer.module.css";
 
 const Footer = (props) => (
-  <div>
+  <div className={styles["component"]}>
     <p>offfff</p>
   </div>
 );

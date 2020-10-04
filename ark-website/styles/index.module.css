@@ -1,6 +1,6 @@
 .container {
   all: unset;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -12,4 +12,16 @@
 .main-content {
   display: flex;
   flex-direction: row;
+  /* margin-bottom: 15px; */
+}
+
+.container-content {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.footer {
+  margin: auto 0 0;
 }

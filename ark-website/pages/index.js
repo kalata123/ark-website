@@ -17,7 +17,7 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <div>
+      <div className={styles["container-content"]}>
         <Navbar />
         <div className={styles["main-content"]}>
           <Sidebar />
@@ -27,8 +27,8 @@ export default function Home() {
             </div>
           </Main>
         </div>
+        <Footer className={styles.footer} />
       </div>
-      <Footer />
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
