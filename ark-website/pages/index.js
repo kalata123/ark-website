@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Arkonea</title>
+        <title styles={""}>Arkonea</title>
         <link rel="icon" href="/logo_ARKONEA_EOOD.ico" />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"

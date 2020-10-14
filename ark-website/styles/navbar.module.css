@@ -25,15 +25,15 @@
   background-color: #bdbfbe;
   font-size: 18px;
   box-shadow: inset 1px -1px 12px 4px rgba(36, 24, 73, 0.43);
+  padding: 12px 15px;
 }
 
 .navbar-contacts > a:first-child {
   border-top-left-radius: 20px;
-  padding: 15px;
 }
 .navbar-contacts > a:last-child {
   border-top-right-radius: 20px;
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 .navbar-contacts > a:hover {

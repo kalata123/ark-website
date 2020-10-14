@@ -1,11 +1,39 @@
 .component {
   font-size: 18px;
   margin-top: 15px;
-  /* margin: auto 0 0; */
+  margin-bottom: 15px;
+  justify-content: space-around;
+  align-items: center;
   display: flex;
   flex-direction: row;
   background-color: #bdbfbe;
-  padding: 5px;
+  padding: 15px;
   box-shadow: inset 1px -1px 12px 4px rgba(36, 24, 73, 0.43);
   width: 100%;
+}
+
+.footer-logo {
+  width: 100%;
+  max-width: 150px;
+  height: 100%;
+}
+
+.footer-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-mid > * {
+  margin: 4px 0;
+}
+
+.mid-higher > span {
+  margin: 0 20px;
+}
+
+.lower-separator {
+  width: 2px;
+  height: 30px;
+  border: 1px solid;
 }
