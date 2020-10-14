@@ -9,17 +9,28 @@
   font-family: "Roboto", "sans-serif";
 }
 
-.main-content {
-  display: flex;
-  flex-direction: row;
-  /* margin-bottom: 15px; */
-}
-
 .container-content {
   display: flex;
   height: 100vh;
   flex-direction: column;
   /* justify-content: space-between; */
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-secondary {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-secondary > * {
+  margin: 10px;
+  height: 100%;
+  width: 100%;
+  max-width: 100px;
 }
 
 .footer {

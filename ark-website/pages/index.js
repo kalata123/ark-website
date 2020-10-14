@@ -22,8 +22,37 @@ export default function Home() {
         <div className={styles["main-content"]}>
           <Sidebar />
           <Main>
-            <div className={styles["content-pic"]}>
-              <a>niceee</a>
+            <div className={styles["content"]}>
+              <div className={styles["content-main"]}>
+                <h2>Материали и принадлежности за заваряване</h2>
+                <img 
+                  src="/arkonea_baner_500.gif"
+                  alt="arkonea_baner"
+                />
+              </div>
+              <div className={styles["content-secondary"]}>
+                <div>
+                  <h3>Обучение и внедряване</h3>
+                  <img 
+                    src="/Obuchenie.jpg"
+                    alt="arkonea_baner"
+                  />
+                </div>
+                <div>
+                  <h3>Инспекции и надзор</h3>
+                  <img 
+                    src="/Supervision.jpg"
+                    alt="arkonea_baner"
+                  />
+                </div>
+                <div>
+                  <h3>Графичен и уеб дизайн</h3>
+                  <img 
+                    src="/graphic_design.png"
+                    alt="arkonea_baner"
+                  />
+                </div>
+              </div>
             </div>
           </Main>
         </div>
